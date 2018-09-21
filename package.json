@@ -1,0 +1,30 @@
+{
+  "name": "electroparty-chromium-keypair",
+  "version": "1.0.0",
+  "description": "Put ssb keys into CHromium's localStorage",
+  "bin": {
+    "ep-create-keypair": "setkeys.js",
+    "ep-get-keypair": "getkeys.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "license": "ISC",
+  "dependencies": {
+    "leveldown": "^4.0.1",
+    "levelup": "^3.1.1",
+    "ssb-keys": "^7.1.1"
+  },
+  "main": "getkeys.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regular/electroparty-chromium-keypair.git"
+  },
+  "bugs": {
+    "url": "https://github.com/regular/electroparty-chromium-keypair/issues"
+  },
+  "homepage": "https://github.com/regular/electroparty-chromium-keypair#readme"
+}
